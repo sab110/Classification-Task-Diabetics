@@ -99,7 +99,8 @@ The dataset is sourced from the [UCI Machine Learning Repository](https://archiv
 Clone the repository to your local machine:
 ```bash
 git clone <repository-url>
-cd <project-directory>
+cd Classification-Task-Diabetics
+
 ```
 
 ### Step 2: Install Dependencies
