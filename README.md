@@ -98,7 +98,7 @@ The dataset is sourced from the [UCI Machine Learning Repository](https://archiv
 ### Step 1: Clone the Repository
 Clone the repository to your local machine:
 ```bash
-git clone <repository-url>
+git clone https://github.com/sab110/Classification-Task-Diabetics.git
 cd Classification-Task-Diabetics
 
 ```
