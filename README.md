@@ -9,6 +9,7 @@ This project demonstrates the use of machine learning models to predict whether 
 ## Objectives
 
 The primary objectives of this project are to:
+
 1. Preprocess and explore the dataset to identify patterns and relationships.
 2. Build and evaluate predictive models using:
    - **Logistic Regression**
@@ -93,6 +94,7 @@ The dataset is sourced from the [UCI Machine Learning Repository](https://archiv
    - Required scaling to perform optimally.
 
 
+
 ## How to Run
 
 ### Step 1: Clone the Repository
@@ -100,7 +102,6 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/sab110/Classification-Task-Diabetics.git
 cd Classification-Task-Diabetics
-
 ```
 
 ### Step 2: Install Dependencies
@@ -109,16 +110,16 @@ Install the required Python libraries using the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-### Step 3: Run the Script
-Run the Python script to execute the workflow:
+### Step 3: Run the Jupyter Notebook
+Launch Jupyter Notebook to run the code:
 ```bash
-python diabetes_prediction.py
+jupyter notebook "Predicting Diabetes Risk.ipynb"
 ```
 
 ### Step 4: Explore the Results
-The script includes outputs such as:
-- Confusion matrices for model performance evaluation.
-- ROC curves for visualizing the models' ability to distinguish between classes.
+The notebook includes:
+- Confusion matrices for evaluating model performance.
+- ROC curves to visualize models' ability to distinguish between classes.
 - Classification reports detailing accuracy, precision, recall, and F1-scores.
 
 ---
@@ -136,7 +137,7 @@ The script includes outputs such as:
 ## Future Work
 
 1. **Explore Advanced Models**:
-   - Implement Gradient Boosting or XGBoost to potentially improve performance.
+   - Implement Gradient Boosting or XGBoost to improve performance.
 2. **Handle Imbalanced Data**:
    - Use oversampling techniques like SMOTE to address class imbalance.
 3. **Hyperparameter Tuning**:
